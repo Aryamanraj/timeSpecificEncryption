@@ -30,3 +30,24 @@ To install and set up the system, follow these steps:
 
 2. Navigate to the project directory:
 ```cd timeSpecificEncryption```
+
+3. Install the required dependencies:
+```pip install -r requirements.txt```
+
+4. Configure the Time Server:
+- Update the necessary settings for the Time Server, such as network configurations and key generation parameters.
+
+5. Configure the Encryption API:
+- Adjust any required settings for the Encryption API, such as integration with the Time Server, public key management, and encryption/decryption logic.
+
+## Usage
+
+To use the system, follow these steps:
+
+1. Start the Time Server:
+- Launch the Time Server and ensure it is running and accessible to the Encryption API.
+
+2. Use the Encryption API:
+- Integrate the Encryption API into your application or system.
+- Use the provided functions and interfaces to encrypt messages at specific time periods.
+- Ensure the recipient has the appropriate private key and a valid TIK for decryption.
